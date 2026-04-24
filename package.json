@@ -1,0 +1,13 @@
+{
+  "name": "ai-dampness-assessment",
+  "version": "1.0.0",
+  "description": "Adaptive AI Dampness Assessment System",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

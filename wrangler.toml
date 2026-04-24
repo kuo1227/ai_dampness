@@ -1,0 +1,11 @@
+name = "ai-dampness-assessment"
+main = "src/worker.js"
+compatibility_date = "2024-09-23"
+
+# 靜態資源：public/ 目錄下的 HTML/CSS/JS 由 Worker 直接托管
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Secrets (透過 Cloudflare Dashboard 或 wrangler secret put 設定):
+# NVIDIA_API_KEY - NVIDIA NIM API 密鑰
